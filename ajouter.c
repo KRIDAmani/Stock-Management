@@ -62,7 +62,7 @@ void Ajouter()
             {
 
                 prod.qte+=qte;
-                fprintf(Fich,"%d\t%s\%d\t\t%f\t%s \n",prod.id,prod.nom,prod.qte,prod.prix,prod.cat);}
+                fprintf(Fich,"%d\t%s\t%d\t\t%f\t%s \n",prod.id,prod.nom,prod.qte,prod.prix,prod.cat);}
         }while(!feof(F));
         fclose(F);
         fclose(Fich);
