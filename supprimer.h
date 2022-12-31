@@ -29,8 +29,8 @@ void supp()
         if(rep[0]=='o')
             {
                 FILE* Fich, *F;
-                F=fopen("C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock.txt","r");
-                Fich=fopen("C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock1.txt","w");
+                F=fopen("stock.txt","r");
+                Fich=fopen("stock1.txt","w");
                 do
                 {
                     produit prod;
@@ -41,8 +41,8 @@ void supp()
                 }while(!feof(F));
                 fclose(F);
                 fclose(Fich);
-                F=fopen("C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock.txt","w");
-                Fich=fopen("C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock1.txt","r");
+                F=fopen("stock.txt","w");
+                Fich=fopen("stock1.txt","r");
                 do
                 {
                     produit prod;
