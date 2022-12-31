@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "recherche.h"
+#include "ajouter.h"
+#include "supprimer.h"
+#include "afficher_description.h"
+#include "afficher_stock.h"
+#include "modifier.h"
+#include "menu.h"
 
 typedef struct{
 	char nom[100];
@@ -17,6 +23,7 @@ typedef struct{
 	int j;
 
 }date;
+menu();
 int main()
 {
    char rep[4]="";
