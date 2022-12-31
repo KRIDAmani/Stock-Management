@@ -1,12 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "recherche.h"
-#include "ajouter.h"
-#include "supprimer.h"
-#include "afficher_description.h"
-#include "afficher_stock.h"
-#include "modifier.h"
-#include "menu.h"
+#include "Produit.h"
 
 typedef struct{
 	char nom[100];
