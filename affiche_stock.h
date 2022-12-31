@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 
+
 typedef struct{
 	char nom[100];
 	long id;
@@ -17,10 +18,10 @@ void aff_stock()
     FILE *F;
     F=fopen("C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock.txt","r");
     printf("LE STOCK CONTIENT LES PRODUITS SUIVANTS:  \n \n ");
-   printf("IDENTIFIANT \t NOM \t QUANTITE \t PRIX \t \t CATEGORIE \n");
+    printf("IDENTIFIANT \t NOM \t QUANTITE \t PRIX \t \t CATEGORIE \n");
     char str[10000];
     fflush(stdin);
-     int ch = getc(F);
+    int ch = getc(F);
     while (ch != EOF)
     {
         putchar(ch);
