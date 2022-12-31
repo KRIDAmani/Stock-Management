@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "recherche.h"
 
 typedef struct{
 	char nom[100];
