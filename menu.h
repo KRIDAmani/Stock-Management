@@ -44,7 +44,7 @@ int menu()
 int recherche(long id)
 {
     FILE *F;
-    F=fopen("C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock.txt","r" );
+    F=fopen("stock.txt","r" );
     long rech=-1;
     do
     {
