@@ -17,7 +17,7 @@ typedef struct{
 	int j;
 
 }date;
-menu();
+
 int main()
 {
    char rep[4]="";
