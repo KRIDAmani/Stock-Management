@@ -16,7 +16,7 @@ typedef struct{
 void aff_stock()
 {
     FILE *F;
-    F=fopen("C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock.txt","r");
+    F=fopen("stock.txt","r");
     printf("LE STOCK CONTIENT LES PRODUITS SUIVANTS:  \n \n ");
     printf("IDENTIFIANT \t NOM \t QUANTITE \t PRIX \t \t CATEGORIE \n");
     char str[10000];
