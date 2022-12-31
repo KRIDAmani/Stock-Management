@@ -16,7 +16,7 @@ typedef struct{
 void affdes()
 {
     FILE *F;
-    F=fopen("C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock.txt","r" );
+    F=fopen("stock.txt","r" );
     int id;
     printf("VEUILLEZ DONNER L'IDENTIFIANT DU PRODUIT A AFFICHER: \n");
     scanf("%d",&id);
