@@ -24,7 +24,7 @@ void Ajouter()
         {
         FILE *F;
         produit prod;
-        F=fopen("C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock.txt","w" );
+        F=fopen("stock.txt","w" );
         prod.id=id;
         printf("VEUILLEZ DONNER LE NOM DU PRODUIT A AJOUTER: ");
         gets(prod.nom);
@@ -52,8 +52,8 @@ void Ajouter()
         printf("VEUILLEZ DONNER LA QUANTITE A AJOUTER POUR CE PRODUIT: ");
         scanf("%d",&qte);
         FILE* Fich, *F;
-        F=fopen("C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock.txt","r");
-        Fich=fopen("C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock1.txt","w");
+        F=fopen("stock.txt","r");
+        Fich=fopen("stock1.txt","w");
 
         do
         {
@@ -67,8 +67,8 @@ void Ajouter()
         }while(!feof(F));
         fclose(F);
         fclose(Fich);
-        remove("C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock.txt");
-        rename("C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock1.txt","C:\\Users\\amani\\OneDrive\\Bureau\\mini projet\\main1.c\\stock.txt");
+        remove("stock.txt");
+        rename("stock1.txt","stock.txt");
 
 
     }
