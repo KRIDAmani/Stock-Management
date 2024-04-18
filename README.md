@@ -20,6 +20,6 @@
 
 #### Also this project allows:
 
-:spiral_calendar: Display the store's stock.
+:spiral_calendar: Displaying the store's stock.
  
-:receipt: Preview the history of each and every operations!
+:receipt: Previewing the history of each and every operations!
