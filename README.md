@@ -2,24 +2,24 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=27&pause=1000&color=FF7A19&background=FCFFCC00&width=600&height=60&lines=Hello+%26+Welcome!;This+is+a+Stock+Managing+Project.)](https://git.io/typing-svg)
 
-:arrow_right::arrow_right: C'est un projet pour gérer le stock d'un magazin 
+:arrow_right::arrow_right: This project allows Stock Management in a store.
 
 
-#### Un produit dans ce projet peut être:
+#### A produit in this project can be:
 
-:heavy_plus_sign: Ajouté
+:heavy_plus_sign: Added
 
-:arrows_counterclockwise: Modifié
+:arrows_counterclockwise: Modified
 
-:mag: Cherché
+:mag: Found (by searching it)
 
-:wastebasket: Supprimé
+:wastebasket: Deleted
 
-:bookmark_tabs: Affiché avec sa description en détail: identifiant +nom +prix +quantité +catégorie
+:bookmark_tabs: Shown with a detailed description: id +name +price +quantity +category
 
 
-#### De plus ce projet vous permet de:
+#### Also this project allows:
 
-:spiral_calendar: Afficher votre stock du magasin
+:spiral_calendar: Display the store's stock.
  
-:receipt: Voir l'historique des opérations faites!
+:receipt: Preview the history of each and every operations!
